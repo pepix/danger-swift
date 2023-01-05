@@ -9,23 +9,6 @@ public let DSLBitBucketServerForkedRepoJSON = """
       "deleted_files": [".babelrc.example", "jest.eslint.config.js"],
       "commits": [
         {
-          "sha": "d6725486c38d46a33e76f622cf24b9a388c8d13d",
-          "parents": ["c62ada76533a2de045d4c6062988ba84df140729"],
-          "author": {
-            "email": "foo@bar.com",
-            "name": "danger",
-            "date": "2018-02-24T03:19:01.000Z"
-          },
-          "committer": {
-            "email": "foo@bar.com",
-            "name": "danger",
-            "date": "2018-02-24T03:19:01.000Z"
-          },
-          "message": "Modify and remove files",
-          "tree": null,
-          "url": "fake://host/artsy/emission/commits/d6725486c38d46a33e76f622cf24b9a388c8d13d"
-        },
-        {
           "sha": "c62ada76533a2de045d4c6062988ba84df140729",
           "parents": ["8942a1f75e4c95df836f19ef681d20a87da2ee20"],
           "author": {
@@ -227,37 +210,6 @@ public let DSLBitBucketServerForkedRepoJSON = """
       "commits": [
         {
           "author": {
-            "active": true,
-            "displayName": "DangerCI",
-            "emailAddress": "foo@bar.com",
-            "id": 2,
-            "name": "danger",
-            "slug": "danger",
-            "type": "NORMAL"
-          },
-          "authorTimestamp": 1519442341000,
-          "committer": {
-            "active": true,
-            "displayName": "DangerCI",
-            "emailAddress": "foo@bar.com",
-            "id": 2,
-            "name": "danger",
-            "slug": "danger",
-            "type": "NORMAL"
-          },
-          "committerTimestamp": 1519442341000,
-          "displayId": "d6725486c38",
-          "id": "d6725486c38d46a33e76f622cf24b9a388c8d13d",
-          "message": "Modify and remove files",
-          "parents": [
-            {
-              "displayId": "c62ada76533",
-              "id": "c62ada76533a2de045d4c6062988ba84df140729"
-            }
-          ]
-        },
-        {
-          "author": {
             "emailAddress": "foo@bar.com",
             "name": "danger"
           },
@@ -355,60 +307,6 @@ public let DSLBitBucketServerForkedRepoJSON = """
             },
             "name": "test",
             "slug": "test",
-            "type": "NORMAL"
-          }
-        },
-        {
-          "action": "COMMENTED",
-          "comment": {
-            "author": {
-              "active": true,
-              "displayName": "DangerCI",
-              "emailAddress": "foo@bar.com",
-              "id": 2,
-              "links": {
-                "self": [
-                  {
-                    "href": "http://localhost:7990/users/danger"
-                  }
-                ]
-              },
-              "name": "danger",
-              "slug": "danger",
-              "type": "NORMAL"
-            },
-            "comments": [],
-            "createdDate": 1518939353345,
-            "id": 10,
-            "permittedOperations": {
-              "deletable": true,
-              "editable": false
-            },
-            "properties": {
-              "repositoryId": 1
-            },
-            "tasks": [],
-            "text": "Text",
-            "updatedDate": 1519449132488,
-            "version": 23
-          },
-          "commentAction": "ADDED",
-          "createdDate": 1518939353345,
-          "id": 52,
-          "user": {
-            "active": true,
-            "displayName": "DangerCI",
-            "emailAddress": "foo@bar.com",
-            "id": 2,
-            "links": {
-              "self": [
-                {
-                  "href": "http://localhost:7990/users/danger"
-                }
-              ]
-            },
-            "name": "danger",
-            "slug": "danger",
             "type": "NORMAL"
           }
         },
