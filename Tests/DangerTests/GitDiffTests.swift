@@ -169,8 +169,8 @@ final class GitDiffTests: XCTestCase {
         ]))
     }
 
+    // swiftlint:disable trailing_whitespace
     // swiftformat:disable all
-
     var testDiff: String {
         """
         diff --git a/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata b/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
